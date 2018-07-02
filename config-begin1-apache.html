@@ -1,0 +1,134 @@
+ <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+   <link rel="stylesheet" type="text/css" href="css/goruntu.css"/>
+   <link rel="stylesheet" type="text/css" href="css/formlar.css"/>
+   <link rel="stylesheet" type="text/css" href="css/ust_menu.css"/>
+   <link rel="stylesheet" type="text/css" href="css/sol_menu.css"/>
+
+<script language="javascript">
+function empty_control()
+{
+	var name=document.form1.name.value;
+	var surname=document.form1.surname.value;
+	var explanation=document.form1.explanation.value;
+	
+	if (name=="") {
+		alert("Please enter a name..")
+		return false;	
+		}
+	else if (surname=="") {
+		alert("Please enter a surname..")
+		return false;	
+		}
+	else if (explanation=="") {
+		alert("Please enter a note..")
+		return false;	
+		}
+	else {
+		alert("Your message has been sent.")
+		return true;	
+		}
+}
+</script>     
+</head>
+<body id="page-home"> 
+<fieldset>
+<legend>Information</legend>
+<form>   
+    <div id="page">
+      <div id="content" class="clearfix">
+
+	<div id="plans">        
+		<div align="center"><br />
+		  <br />
+          <form action="mailto:g_bal@ug.bilkent.edu.tr?subject=Contact" method="post" name="form1" >
+		    <table width="80%" border="0" cellpadding="0" cellspacing="2" bordercolor="#E2E6D5">
+              <tr>
+                <td bgcolor="#E2E6D5">&nbsp;</td>
+                <td width="35%" bgcolor="#E2E6D5">&nbsp;</td>
+                <td width="60%" bgcolor="#E2E6D5">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="5%" bgcolor="#E2E6D5">&nbsp;</td>
+                <td colspan="2" bgcolor="#E2E6D5">
+                <div align="left">Mail to <a href="mailto:g_bal@ug.bilkent.edu.tr?Subject=Contact">g_bal@ug.bilkent.edu.tr</a> 
+                or use contact form below.</div>
+                </td>
+              </tr>
+              <tr>
+                <td height="37" bgcolor="#E2E6D5">&nbsp;</td>
+                <td valign="middle" bgcolor="#E2E6D5">Category:<br /></td>
+                <td bgcolor="#E2E6D5"><label>
+                  <div align="left">
+                    <select name="choice" id="choice">
+                      <option selected="selected">Alternative Exp</option>
+                      <option>Prob1</option>
+                      <option>Prob2</option>
+                      <option>Prob3</option>
+                    </select>
+                    </div>
+                </label></td>
+              </tr>
+              <tr>
+                <td bgcolor="#E2E6D5">&nbsp;</td>
+                <td bgcolor="#E2E6D5"><div align="left">Name:</div></td>
+                <td bgcolor="#E2E6D5"><label>
+                  <div align="left">
+                    <input name="name" type="text" class="input" id="name" />
+                    </div>
+                </label></td>
+              </tr>
+              <tr>
+                <td bgcolor="#E2E6D5">&nbsp;</td>
+                <td bgcolor="#E2E6D5"><div align="left">Surname:</div></td>
+                <td bgcolor="#E2E6D5"><label>
+                  <div align="left">
+                    <input name="surname" type="text" class="input" id="surname" />
+                  </div>
+                </label></td>
+              </tr>
+              <tr>
+                <td bgcolor="#E2E6D5">&nbsp;</td>
+                <td bgcolor="#E2E6D5"><div align="left">Extra</div></td>
+                <td bgcolor="#E2E6D5"><div align="left">
+                  <textarea name="explanation" ></textarea>
+                </div></td>
+              </tr>
+              <tr>
+                <td bgcolor="#E2E6D5">&nbsp;</td>
+                <td bgcolor="#E2E6D5">&nbsp;</td>
+                <td bgcolor="#E2E6D5"><label>
+                  <div align="left">
+                    <input name="Reset" type="reset"  value="Clear" />
+                    <input name="button2" type="submit" value="Send" onClick="return empty_control();" />
+                  </div>
+                </label></td>
+              </tr>
+              <tr>
+                <td bgcolor="#E2E6D5">&nbsp;</td>
+                <td bgcolor="#E2E6D5">&nbsp;</td>
+                <td bgcolor="#E2E6D5">&nbsp;</td>
+              </tr>
+            </table>
+          </form>
+      </div>
+	</div>   
+            <div id="local"> </div>
+        </div>
+    <div id="nav">
+                <div class="wrapper">      
+             <ul class="clearfix">
+                     <li><a href="main.html" target="mainFrame">Main Page</a></li>
+               <li><a href="others.html" target="mainFrame">Others</a></li>
+                  </ul>
+                </div>
+                <hr />
+      </div>
+        <div id="footer" class="clearfix1">
+            <p>&copy; Copyright 2008 Gozde Bal&nbsp;</p>
+        </div>
+    </div>
+</form>
+</fieldset> 
+</body>
+</html>
