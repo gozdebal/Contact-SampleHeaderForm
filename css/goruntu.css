@@ -1,0 +1,73 @@
+
+/* Site Ana görüntüsü */
+    body {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background: black;
+    }
+    div#page {
+        width: 100%;
+        margin:  0 auto;
+        padding: 0;
+        text-align: center;
+        background: black;
+    }
+    
+    /* Üst bölüm */
+        div#header {
+            margin: 0 0 5em 0;
+            padding: 80px 20px 0 0;
+            color: white;
+            background: url(../images/headbg2.jpg);
+	    	background-position: center center;
+	    	background-repeat: no-repeat;
+            text-align: left;
+	    	border-bottom: 4px solid #6BCADF;
+        }
+	div#innerhead {
+	    width: 800px;
+	    margin: 0 auto;
+		}
+        div#branding {
+            float: left;
+            width: 40%;
+            margin: 0;
+            padding: 20px 0 38px 20px;
+            text-align: left;
+        }
+        
+   
+    
+   
+    
+    
+    /* Bottom of the page */
+
+        div.clearfix {
+            color: white;
+            background-color: black;
+        }
+        div.clearfix {
+            margin: 0;
+            padding: 15px; 
+            font-size: 0.8em;
+        }
+
+    /* End of the bottom of the page */
+
+	div.clearfix1{
+                color: white;
+                background-color: black;
+		font-variant:small-caps;
+		}
+
+	a.link1{
+		color:white;
+		text-transform:capitalize;
+		}
+
+	img.1{
+		float:right;
+		position:absolute;
+	}
